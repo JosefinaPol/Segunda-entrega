@@ -1,0 +1,36 @@
+.container-fluid{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav{
+    color: white;
+}
+.jumbotron{
+    height: 400px;
+    background-image: url(istockphoto-1442830067-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-size-adjust: 20px;
+    background-color: rgb(174, 121, 97);
+    padding: 20px;
+}
+.opciones{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.apps{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.apps:hover{
+    color:rgb(111, 50, 21) ;
+}
