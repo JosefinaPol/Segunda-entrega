@@ -1,16 +1,34 @@
 .container-fluid{
     color: wheat;
-    display: flex;
-    justify-content: center;
 }
-.navbar-nav{
+.title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(83, 50, 40) ;
+    text-shadow: 0 0 2px black;
+}
+.nav-item{
     color: white;
+    display: flex;
+    justify-content: center !important;
 }
 .jumbotron{
     height: 400px;
     background-image: url(istockphoto-1442830067-2048x2048.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.nleft{
+    color: rgb(65, 47, 33);
+    text-shadow:0 0 3px bisque;
+    padding: 10%;
+    margin-right: 0% !important;
+}
+.nright{
+    display: flex;
+    align-items: center !important;
+    padding-left: 20%;
 }
 .footer{
     font-size: 20px;
