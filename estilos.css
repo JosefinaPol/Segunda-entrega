@@ -1,36 +1,39 @@
-.container-fluid{
+.container-fluid {
     color: wheat;
 }
-.title{
+
+.title {
     display: flex;
     justify-content: left;
     align-items: center;
-    color: rgb(83, 50, 40) ;
+    color: rgb(83, 50, 40);
     text-shadow: 0 0 2px black;
 }
-.nav-item{
+
+.nav-item {
     color: white;
     display: flex;
     justify-content: center !important;
 }
-.jumbotron{
+
+.jumbotron {
     height: 400px;
     background-image: url(istockphoto-1442830067-2048x2048.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .nleft{
-    color: rgb(65, 47, 33);
-    text-shadow:0 0 3px bisque;
     padding: 10%;
-    margin-right: 0% !important;
+    color: rgb(57, 42, 29);
+    text-shadow: 0 0 2px rgb(204, 144, 84);
 }
 .nright{
-    display: flex;
-    align-items: center !important;
-    padding-left: 20%;
+    padding: 10%;
 }
-.footer{
+
+
+.footer {
     font-size: 20px;
     text-decoration: none;
     text-align: center;
@@ -38,17 +41,19 @@
     background-color: rgb(174, 121, 97);
     padding: 20px;
 }
-.opciones{
+
+.opciones {
     text-align: left;
     margin-top: 10px;
 }
 
-.apps{
+.apps {
     color: black;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.apps:hover{
-    color:rgb(111, 50, 21) ;
+
+.apps:hover {
+    color: rgb(111, 50, 21);
 }
