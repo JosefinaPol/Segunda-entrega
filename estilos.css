@@ -31,14 +31,34 @@
 .nright{
     padding: 10%;
 }
-
+.icons{
+    padding: 10%;
+    display: flex;
+    justify-content: right;
+}
 
 .footer {
+    background-color: rgba(62, 46, 28, 0.536);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+.icons{
+    
+    justify-content: left;
+}
+.footer {
     font-size: 20px;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     text-align: center;
     text-size-adjust: 20px;
-    background-color: rgb(174, 121, 97);
+    background-color: rgb(121, 88, 72);
     padding: 20px;
 }
 
