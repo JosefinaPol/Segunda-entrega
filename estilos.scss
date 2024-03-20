@@ -1,0 +1,79 @@
+.container-fluid {
+    color: wheat;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(83, 50, 40);
+    text-shadow: 0 0 2px black;
+}
+
+.nav-item {
+    color: white;
+    display: flex;
+    justify-content: center !important;
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url(istockphoto-1442830067-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nleft{
+    padding: 10%;
+    color: rgb(57, 42, 29);
+    text-shadow: 0 0 2px rgb(204, 144, 84);
+}
+.nright{
+    padding: 10%;
+}
+.icons{
+    padding: 10%;
+    display: flex;
+    justify-content: right;
+}
+
+.footer {
+    background-color: rgba(62, 46, 28, 0.536);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+.icons{
+    
+    justify-content: left;
+}
+.footer {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    text-size-adjust: 20px;
+    background-color: rgb(121, 88, 72);
+    padding: 20px;
+}
+
+.opciones {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.apps {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.apps:hover {
+    color: rgb(111, 50, 21);
+}
