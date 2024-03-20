@@ -1,10 +1,11 @@
+@charset "UTF-8";
 .container-fluid {
   color: wheat;
 }
 
 .title {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   color: rgb(83, 50, 40);
   text-shadow: 0 0 2px black;
@@ -18,9 +19,10 @@
 
 .jumbotron {
   height: 400px;
-  background-image: url(istockphoto-1442830067-2048x2048.jpg);
+  background-image: url(header2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0%;
 }
 
 .nleft {
@@ -79,6 +81,88 @@
 
 .apps:hover {
   color: rgb(111, 50, 21);
+}
+
+.formulario {
+  max-width: 600px;
+  margin: 50px;
+  padding: 50px;
+  background-color: #D2B48C; /* Marrón claro */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #8B4513; /* Marrón */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A0522D; /* Marrón más oscuro */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mapa {
+  max-width: 800px;
+  padding: 50px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.texto {
+  width: 50%;
+  float: right;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+}
+
+.sustentable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=estilos.css.map */
