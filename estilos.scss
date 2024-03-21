@@ -8,6 +8,8 @@
     align-items: center;
     color: rgb(83, 50, 40);
     text-shadow: 0 0 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 60px;
 }
 
 .nav-item {
@@ -125,7 +127,7 @@ button {
 button:hover {
     background-color: #A0522D; /* Marrón más oscuro */
 }
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -150,9 +152,79 @@ body {
     display: flex;
     align-items:center ;
 }
-.sustentable{
+.historia{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
 }
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+.carrusel {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.controls {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    background-color: #a58774;
+    color: #110707;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.control-btn:hover {
+    background-color:#483428;
+}
+.promociones {
+    height: 400px;
+    background-image: url(variedades.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+  }
+  .novedades {
+    height: 400px;
+    background-image: url(matcha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+  }
+  .blog {
+    height: 400px;
+    background-image: url(ruben.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+  }
+
