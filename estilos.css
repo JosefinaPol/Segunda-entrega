@@ -17,6 +17,11 @@
   color: white;
   display: flex;
   justify-content: center !important;
+  align-items: center;
+}
+
+.navbar-nav {
+  text-align: center !important;
 }
 
 .jumbotron {
@@ -25,16 +30,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
-}
-
-.nleft {
-  padding: 10%;
-  color: rgb(57, 42, 29);
-  text-shadow: 0 0 2px rgb(204, 144, 84);
-}
-
-.nright {
-  padding: 10%;
 }
 
 .icons {
@@ -64,7 +59,9 @@
   justify-content: center;
   text-decoration: none;
   text-align: center;
-  text-size-adjust: 20px;
+  -webkit-text-size-adjust: 20px;
+     -moz-text-size-adjust: 20px;
+          text-size-adjust: 20px;
   background-color: rgb(121, 88, 72);
   padding: 20px;
 }
@@ -85,11 +82,21 @@
   color: rgb(111, 50, 21);
 }
 
+.nleft {
+  padding: 10%;
+  color: rgb(57, 42, 29);
+  text-shadow: 0 0 2px rgb(204, 144, 84);
+}
+
+.nright {
+  padding: 10%;
+}
+
 .formulario {
   max-width: 600px;
   margin: 50px;
   padding: 50px;
-  background-color: #D2B48C; /* Marrón claro */
+  background-color: #D2B48C;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
@@ -173,49 +180,6 @@ button:hover {
   align-items: center;
 }
 
-.carrusel {
-  max-width: 800px;
-  width: 100%;
-  padding: 20px;
-}
-
-.carrusel {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carrusel img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.controls {
-  display: flex;
-  padding: 20px;
-  justify-content: space-between;
-  margin: 20px;
-}
-
-.control-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: #a58774;
-  color: #110707;
-  border: none;
-  border-radius: 2%;
-  cursor: pointer;
-}
-
-.control-btn:hover {
-  background-color: #483428;
-}
-
 .promociones {
   height: 400px;
   background-image: url(variedades.jpg);
@@ -240,4 +204,22 @@ button:hover {
   background-position: 0%;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.carrusel {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+}
+
+.carrusel {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel img {
+  width: 100%;
+  height: auto;
+  display: block;
+}/*# sourceMappingURL=estilos.css.map */

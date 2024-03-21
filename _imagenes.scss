@@ -1,0 +1,19 @@
+.carrusel {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+.carrusel {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
