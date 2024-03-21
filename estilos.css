@@ -216,7 +216,28 @@ button:hover {
   background-color: #483428;
 }
 
+.promociones {
+  height: 400px;
+  background-image: url(variedades.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+}
+
+.novedades {
+  height: 400px;
+  background-image: url(matcha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+}
+
+.blog {
+  height: 400px;
+  background-image: url(ruben.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+}
+
 /*# sourceMappingURL=estilos.css.map */
-
-
-
