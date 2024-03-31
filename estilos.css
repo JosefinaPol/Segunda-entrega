@@ -59,10 +59,8 @@
   justify-content: center;
   text-decoration: none;
   text-align: center;
-  -webkit-text-size-adjust: 20px;
-     -moz-text-size-adjust: 20px;
-          text-size-adjust: 20px;
-  background-color: rgb(121, 88, 72);
+  text-size-adjust: 20px;
+  background: rgb(241, 237, 225);
   padding: 20px;
 }
 
@@ -130,7 +128,10 @@ button {
   width: calc(100% - 20px);
   padding: 10px;
   background-color: #8B4513; /* Marrón */
-  color: #fff;
+  color: rgb(243, 237, 237);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0 0 10px rgb(125, 95, 68);
+  font-size: xx-large;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -160,6 +161,7 @@ button:hover {
   float: right;
   text-align: right;
   padding-top: 30px;
+  transform: scale(0.2);
 }
 
 .ubicacion {
@@ -182,7 +184,7 @@ button:hover {
 
 .promociones {
   height: 400px;
-  background-image: url(variedades.jpg);
+  background-image: url(coffee-hd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
@@ -190,7 +192,7 @@ button:hover {
 
 .novedades {
   height: 400px;
-  background-image: url(matcha.jpg);
+  background-image: url(coffee\ hd\ 2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
@@ -202,6 +204,12 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
+}
+
+body {
+  width: 100%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
 }
 
 .carrusel {
@@ -222,4 +230,6 @@ button:hover {
   width: 100%;
   height: auto;
   display: block;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
